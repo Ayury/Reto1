@@ -1,0 +1,7 @@
+{
+  "name": "BilleteraDigital",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

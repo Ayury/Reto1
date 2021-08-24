@@ -1,0 +1,26 @@
+
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title text-center>Iniciar sesion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img class="icon" src="assets/icon/logo.png" alt="logo"> 
+<ion-item>
+  <ion-label position="floating">Correo Electronico</ion-label>
+<ion-input [(ngModel)]='email'></ion-input>
+
+
+</ion-item>
+<ion-item>
+  <ion-label position="floating">Contraseña</ion-label>
+  <ion-input [(ngModel)]='password'></ion-input>
+
+
+</ion-item>
+<ion-button (click)='login()' expand="block">Entrar</ion-button>
+<br>
+<h5 (click)='signup()'>No tienes cuenta? <ion-text color='primary'>regístrate aquí</ion-text>
+</h5>
+</ion-content>
